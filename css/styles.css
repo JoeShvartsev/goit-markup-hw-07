@@ -862,6 +862,11 @@ body.modal-open {
 .team-list {
     list-style-type: none;
 }
+.team-item{
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .team-item:not(:last-child) {
     margin-bottom: 72px;
 }
