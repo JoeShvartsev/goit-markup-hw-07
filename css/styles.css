@@ -685,6 +685,13 @@ body.modal-open {
     }}
 }
 @media screen and (min-width: 1200px) {
+    .section-hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    .slogan {
+        font-size: 56px;
+    } 
     .hero-overlay{
         height: 600px;
         max-width: 1440px;
@@ -939,6 +946,10 @@ body.modal-open {
 }
 
 @media screen and (min-width: 1200px) {
+    .team {
+        padding-bottom: 120px;
+        padding-top: 120px;
+    }
     .container-team {
         padding-left: 15px;
         padding-right: 15px;
@@ -1024,6 +1035,10 @@ body.modal-open {
     }
 }
 @media screen and (min-width: 1200px) {
+    .customers-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     .customers-container {
         padding-left: 15px;
         padding-right: 15px;
