@@ -14,21 +14,90 @@
 </head>
 <body>
     <header class="header"> 
-        <div class="container section-header">
-            <nav class="nav">
-                <a href="" target="blank" rel="noreferrer noopener" class="logo"><span class="logo-web">Web</span>Studio</a>
-                <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Studio</a></li>
-                    <li class="nav-item"><a class="nav-link nav-portfolio" href="portfolio.html" target="_self" rel="noreferrer noopener">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
+        <div class="container tab-desc-header">
+            <nav class="header-nav">
+                <a href="" target="blank" rel="noreferrer noopener" class="header-logo"><span class="header-logo-web">Web</span>Studio</a>
+                <ul class="header-nav-list">
+                    <li class="header-nav-item"><a class="header-nav-link header-nav-studio" href="">Studio</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="portfolio.html" target="_self" rel="noreferrer noopener">Portfolio</a></li>
+                    <li class="header-nav-item"><a class="header-nav-link" href="">Contacts</a></li>
                 </ul>
             </nav>
-            <address class="adress">
-            <ul class="adress-list">
-                <li class="adress-item"><a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="adress-item"><a class="adress-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
+            <address class="header-adress">
+                <ul class="header-adress-list header-tel-mail">
+                <li class="header-adress-item"><a class="header-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-adress-item"><a class="header-adress-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
             </address>
+        </div>
+        <div class="container section-header">
+            <div class="mob-header">
+                <a href="" target="blank" rel="noreferrer noopener" class="logo"><span class="logo-web">Web</span>Studio</a>
+                <button type="button" class="menu-open-button" data-menu-open>
+                    <svg class="menu-svg" width="32" height ="22" aria-label="mobile menu switcher">
+                        <use class="icon-open-menu" href="./images/icons.svg#icon-menu-hamburger"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="mob-menu is-hidden" data-menu >
+                <div class="mob-navigation">
+                    <button type="button" class="menu-close-button" data-menu-close >
+                        <svg class="menu-close-icon" width="8" height="8">
+                            <use href=".//images/icons.svg#icon-close-btn-2"></use>
+                        </svg>
+                    </button>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a class="nav-link nav-studio" href="">Studio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html" target="_self" rel="noreferrer noopener">Portfolio</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link nav-item-contact" href="">Contacts</a>
+                        </li>
+                </div> 
+                <div>
+                    <div>      
+                        <ul class="adress-list">
+                            <li class="adress-item"><a class="adress-link adress-link-tel" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                            <li class="adress-item"><a class="adress-link adress-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-social-block">
+                        <ul  class="menu-social-list">
+                            <li class="menu-social-items">
+                                <a class="menu-social-links" href="">
+                                    <svg class="menu-social-icons" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="menu-social-items">
+                                <a class="menu-social-links" href="">
+                                    <svg class="menu-social-icons" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="menu-social-items">
+                                <a class="menu-social-links" href="">
+                                    <svg class="menu-social-icons" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="menu-social-items">
+                                <a class="menu-social-links" href="">
+                                    <svg class="menu-social-icons" width="24" height="24">
+                                        <use href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </di>
+            </div>
         </div>
     </header> 
 <main>
